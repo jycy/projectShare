@@ -1,0 +1,389 @@
+//$color-orange: #DB8B09;
+//$color-orange: #FCB849;
+//$color-orange-border: #eea236;
+$color-default-light: #D3D6DC;
+//$color-default: #5C6272;
+$color-base: #252830;
+$color-default: 35A270;
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.padding-login-menu{
+    padding-top:100px;
+}
+
+.padding-input-login{
+	padding-top: 20px;
+
+}
+
+.background-image{
+	background-image: url(../../../images/sdhnfvjk.png);
+	background-color: #252830;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	//background-position: center;
+}
+
+.custom-alert{
+	margin: 0 20;
+	padding: 0px;
+	text-align: center;
+}
+
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: $color-default;
+  border-color: $color-default;
+  text-align: center;
+}
+
+.panel-body{
+	padding: 0px;
+}
+.panel-body-projet{
+	padding: 0px;
+	background-color: #222;
+	margin-bottom: 20px;
+}
+
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: $color-default;
+	z-index: 1;
+}
+
+.container .jumbotron{
+	margin-bottom: 0px;
+	background-color: $color-default;
+	border-radius: 0;
+	margin-right: -15px;
+	margin-left: -15px;
+	margin-bottom: 20px;
+}
+
+.jumbotron > h1{
+	color: #fff;
+}
+
+.footer > div> h4{
+	color: #fff;
+	margin: 0px;
+	padding-top: 10px;  
+}
+
+p{
+	padding: 20px;
+}
+
+.logo-test{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	box-shadow: 0px 0px 0px 15px $color-default-light;
+}
+
+.panel {
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0;
+}
+.panel-profil{
+	margin-top: 50px;
+}
+.panel-heading{
+	border-radius: 0;
+	//box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.panel-projet{
+	height: 125px;
+	color: #ccc;
+
+}
+
+.panel-profil{
+	min-height: 225px;
+	color: #fff;
+
+}
+
+
+form{
+	margin: 0px;
+}
+
+.container-white{
+	background-color: white;
+	padding-top: 50px;
+	z-index: 0;
+}
+
+.navbar{
+	margin: 0px;
+}
+
+.div-thumbnail{
+	min-height: 225px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.div-no-thumbnail{
+	min-height: 225px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../../../images/no-thumbnail.jpg);
+}
+.div-no-avatar{
+	min-height: 225px;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../../../images/no-thumbnail.jpg);
+}
+a:hover{
+	text-decoration: none;
+}
+
+.btn-block{
+	border-radius: 0;
+}
+.input-group{
+	margin-left: 20px;
+    margin-right: 20px;
+}
+.btn-lg{
+	border-radius: 0px;
+}
+.navbar{
+	border: none;
+}
+.btn-default,.btn-default:focus{
+	background-color: $color-default;
+	color: #fff;
+	border: none;
+}
+.btn-default:hover{
+	background-color: 59B98D;
+	color:#fff;
+}
+.btn-default:active:focus{
+	background-color: $color-default;
+	color:#fff;
+}
+
+.panel-proj-perso, {
+	padding: 0px;
+	background-color: #222;
+}
+.panel-proj-perso .panel-proj-perso{
+	padding-top: 20px;
+}
+
+hr+p {
+	padding: 0px;
+	margin-top: 10px;
+}
+h4+hr{
+	margin: 0px;
+}
+div>h4{
+	text-align: center;
+}
+#text-area-intro{
+	min-height: 100px;
+	resize: none;
+}
+#text-area-description{
+	min-height: 500px;
+	resize: none;
+}
+#text-area-commentaire{
+	min-height: 150px;
+	resize: none;
+}
+#avatar{
+	border-style: solid;
+	border-color: white;
+	max-height: 100%;
+	border-width: 1px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 0px;
+	
+}
+#div-avatar{
+	padding: 20px;
+}
+#input-group-reseau{
+	margin-right: 0px !important;
+}
+.btn-selector{
+	margin-right: 20px;	
+}
+.center-ccc{
+	text-align: center;
+	color: #ccc;
+}
+h4.center-ccc{
+	padding-bottom: 20px;
+}
+div.embed-responsive{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 20px;
+}
+.info-proj{
+	min-height: 467px;
+}
+
+.padding-7{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.tab-content{
+	background-color: #222;
+	min-height: 600px;
+	overflow: auto;
+}
+.tab-content p{
+	color: #ccc;
+}
+a.center-ccc:hover,a.center-ccc:focus,h5>a:hover,h5>a:focus{
+	color: 59B98D;
+}
+h5>a{
+	color:#222;
+}
+.a-nav{
+	color:#222;
+}
+.a-nav:hover{
+	color:59B98D;
+}
+.jumboproj{
+	background-color: $color-default;
+	color: white;
+	margin: 20px 14px 15px 14px;
+}
+.jumboproj h1{
+	text-align: center;
+}
+.div-photo-proj{
+	padding: 10px;
+	min-height: 158px;
+}
+.comment{
+	padding: 10px;
+	background-color: white;
+	border-bottom-width: 1px;
+	border-bottom-color: #ccc;
+	border-bottom-style: solid;
+}
+.img-comment{
+	max-height: 30px;
+	max-width: 30px;
+	margin: 0 auto;
+	display: block;
+}
+.align-avatar{
+	padding-top: 20px;
+}
+.comment div>p{
+	color: black;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+div#prev{
+	width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+div#prev>img {
+    position:absolute;
+    max-height: 100%;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+ul.pager a{
+	margin-top: 20px;
+}
+#btn-youtube{
+	width: 100%;
+}
+#input-video-youtube{
+	margin-right: 0px;
+}
+#div-btn-youtube{
+	padding-right: 20px;
+}
+.home-content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.home-section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.home-section img {
+  width: 150px;
+}
+.home-content h1 {
+  text-align: center;
+}
+.popover{
+	color: #222;
+}
+#ajout-photo{
+	color:white;
+}
+#ajout-photo:hover{
+	color:$color-default;
+}
+div#preview{
+    overflow: hidden;
+}
+div#preview>img {
+    max-width: 100%;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+.btn-ajout{
+	margin-bottom: 20px;
+}
+.margin-left-10{
+	margin-left: 10px;
+}
+div#ajout-p{
+	text-align: center;
+	margin-top: 20px;
+}
