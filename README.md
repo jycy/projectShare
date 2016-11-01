@@ -22,5 +22,5 @@ ProjectShare offers a couple of features when it comes to sharing a project. Whe
 * **Social media:**
   You can add a social media link when creating your project so that visitors can know who you are better.
   
-## Important note:
+## Important note
 This web application is originaly a school project, this was written in pure php without the use of any frameworks. The application is also partially in french but it could receive a english version soon.
