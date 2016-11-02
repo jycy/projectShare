@@ -88,6 +88,10 @@
 										<option data-content="<i class='fa fa-twitter-square fa-lg' aria-hidden='true'></i>  Twitter" value="Twitter"></option>
 										<option data-content="<i class='fa fa-youtube-play fa-lg' aria-hidden='true'></i>  Youtube" value="Youtube"></option>
 										<option data-content="<i class='fa fa-google-plus-square fa-lg' aria-hidden='true'></i>  Google+" value="Google+"></option>
+										<option data-content="<i class='fa fa-linkedin-square fa-lg' aria-hidden='true'></i>  Linkedin" value="Linkedin+"></option>
+										<option data-content="<i class='fa fa fa-github fa-lg' aria-hidden='true'></i>  GitHub" value="GitHub"></option>
+										<option data-content="<i class='fa fa fa-instagram fa-lg' aria-hidden='true'></i>  Instagram" value="Instagram"></option>
+										<option data-content="<i class='fa fa-cog fa-lg' aria-hidden='true'></i>  Custom" value="Custom"></option>
 									</select>
 								</div>
 							</div> 	
